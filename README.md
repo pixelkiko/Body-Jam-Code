@@ -12,3 +12,5 @@
 6.Click on the "click me" button on the top left corner of the screen and wait for a few seconds till the song plays.
 
 7.Come in the webcam view and get your shoulders tracked :) You can monitor the logs in the console window in the devtools.
+
+This experiment was made in collaboration with Anqi Yang, Jehan Khattak, Tayyaba Taimur, Taavi Kervinen, Magda Mihalache
