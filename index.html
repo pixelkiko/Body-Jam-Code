@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <button>Click me</button>
+    <div class="canvas-container">
+      <img 
+        id = "rewind"
+        style="position: absolute;
+        z-index: 1;
+        margin-left: 138px;
+        height: 93px;
+        margin-top: 50px;
+        opacity: 0.65;" 
+        src="imgs/Rewind_c.png">
+      <img 
+        id = "comp"
+        style="
+        position: absolute;
+        z-index: 1;
+        margin-left: 310px;
+        margin-top: 50px;
+        height: 93px;
+        opacity: 0.65;
+        " src="imgs/Compressor_new.png">
+      
+      <img
+        id="volume"
+        src="imgs/Volume.png"
+        style="
+        position: absolute;
+        z-index: 1;
+        margin-left: 0px;
+        margin-top: 82px;
+        height: 178px;
+        ">
+      
+      <img
+      id = "gun"
+      style="
+      position: absolute;
+      z-index: 1;
+      height: 93px;
+      margin-left: 49px;
+      margin-top: 440px;
+      opacity: 0.65;"
+      src="imgs/Gunshot_c.png">
+      
+      <img
+      id = "flanger"
+      style="
+      position: absolute;
+      z-index: 1;
+      margin-left: 229px;
+      margin-top: 439px;
+      height: 93px;
+      opacity: 0.65;"
+      src="imgs/Flanger_c.png">
+     
+      <img
+      id="pause"
+      style="
+      position: absolute;
+      z-index: 1;
+      height: 93px;
+      margin-left: 401px;
+      margin-top: 440px;
+      opacity: 0.65;
+      "
+      src="imgs/Pause.png">
+
+      <div style="padding-top: 50px;">
+
+        <img
+        id="pass"
+        style="position: absolute;
+        z-index: 1;
+        margin-left: 496px;
+        margin-top: 24px;
+        height: 178px;"
+        src="imgs/Pass Filter.png">
+
+
+<!-- //@@@@@@@@@@@@@@@@@@ -->
+
+        <img
+        id = "reverb"
+        src="imgs/Reverb.png"
+        style="
+        position: absolute;
+        z-index: 1;
+        margin-left: 528px;
+        margin-top: 220px;
+        height: 178px;">
+        
+        <img
+        id="delay"
+        src="imgs/Delay.png"
+        style="position: absolute;
+        z-index: 1;
+        margin-top: 222px;
+        height: 178px;">
+
+        <img
+        id="ins_main"
+        src=""
+        style="
+        position: absolute;
+        z-index: 1;
+        margin-left: 200px;
+        margin-top: 90px;
+        height: 300px;">
+
+        <img
+        id="ins_min"
+        src=""
+        style="
+        position: absolute;
+        z-index: 1;
+        margin-left: 590px;
+        margin-top: 10px;
+        height: 60px;">
+      </div>
+
+      <script src="sketchJKF.js"></script>
+    </div>
+  </body>
+</html>
